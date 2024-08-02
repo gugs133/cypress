@@ -46,7 +46,7 @@ cy.get('b')
 cy.get('[data-qa="continue-button"]').click()
 //16. Verify that 'Logged in as username' is visible
 //17. Click 'Delete Account' button
-//18. Verify that 'ACCOUNT DELETED!' is visible and click 'Continue' button
+//18. Verify that 'ACCOUNT DELETED!.' is visible and click 'Continue' button
   })
 })
 
