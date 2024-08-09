@@ -20,6 +20,6 @@ describe('Changing', () => {
         cy.get('#PasswordFrm_password').type('Kroos999')
         cy.get('#PasswordFrm_confirm').type('Kroos999')
         cy.get('.col-md-12 > .btn-orange').click()
-        cy.contains('Success: Youur password has been successfully updated.').should('be.visible')
+        cy.contains('Success: Your password has been successfully updated.').should('be.visible')
     })
 })
