@@ -1,7 +1,7 @@
 
 
 describe('Registration and then login', () => {
-    it('Valid Registration', () => {
+    it('Valid Rergistration', () => {
         cy.visit('/')
 
         cy.registration2()

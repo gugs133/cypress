@@ -1,4 +1,6 @@
 Cypress.Commands.add("registration2", () => {
+
+    
     let email = (Math.random())
     cy.contains("Full-Fledged practice website for Automation Engineers")
     //4. Click on 'Signup / Login' button

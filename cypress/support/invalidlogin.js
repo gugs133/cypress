@@ -8,4 +8,5 @@ Cypress.Commands.add("invalidlogin", (email,password) => {
     cy.get('[data-qa="login-password"]').type(password)
     cy.get('[data-qa="login-button"]').click()
 
+    
 })

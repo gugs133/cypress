@@ -1,5 +1,6 @@
 Cypress.Commands.add("validlogin", (email,password) => {
     
+    
 
     cy.contains('Home')
     cy.get('.shop-menu > .nav > :nth-child(4) > a').click()
