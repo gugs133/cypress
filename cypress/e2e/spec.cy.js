@@ -12,7 +12,7 @@ cy.get('.shop-menu > .nav > :nth-child(4) > a').click()
 cy.get('.signup-form > h2').should("have.text", "New User Signup!")
 //6. Enter name and email address 
 cy.get('[data-qa="signup-name"]').type("guga")
-cy.get('[data-qa="signup-email"]').type("gk11vits13@gmail.com")
+cy.get('[data-qa="signup-email"]').type("gkvits13@gmail.com")
 //7. Click 'Signup' button
 cy.get('[data-qa="signup-button"]').click()
 //8. Verify that 'ENTER ACCOUNT INFORMATION' is visible
